@@ -26,13 +26,13 @@ def capture_camera(mirror=False):
         else:
             print("分からない")
 
-        if !os.environ['HOME'] == "/home/pi": 
+        if not os.environ['HOME'] == "/home/pi": 
             cv2.imshow('camera capture', line_gray)
 
         k = cv2.waitKey(1) 
         if k == 27: 
             break
-    if !os.environ['HOME'] == "/home/pi":
+    if not os.environ['HOME'] == "/home/pi":
         cap.release()
         cv2.destroyAllWindows()
 
