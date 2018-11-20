@@ -18,10 +18,10 @@ while True:
     #val = int(input("> "))
     #pwm.set_pwm(0, 0, 600)
    # time.sleep(1)
-    pwm.set_pwm(5, 0, 1000)
-    time.sleep(1)
-    #pwm.set_pwm(3, 0, 1000)
-    #time.sleep(1)
+    pwm.set_pwm(8, 0, 1000)
+    time.sleep(2)
+    pwm.set_pwm(9, 0, 1000)
+    time.sleep(2)
     #pwm.set_pwm(1, 0, 100)
 
 
